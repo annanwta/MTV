@@ -295,22 +295,26 @@ dl span {float:left; width:80px}
 	width:910px;
 	overflow:hidden;
 	padding:0 0 0 1px;
-	height:720px;
+	
 	}
 .js-padding {padding:0}
  div.content {
 	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
 	display: none;
 	width: 902px;
-	height: 360px;
+	height: 460px;
 	margin:  0 0 40px 0;
+	
 	overflow: hidden;
 	border:1px solid #333333;
 	padding:3px;
+	
+		 
 }
  div.content img {
 	position: relative;
 	z-index: 2;
+	
 }
  div.content a, div.navigation a {
 	color: #6c6c6c;
@@ -362,7 +366,8 @@ div.nav-controls a {
  div.nav-controls a.next:hover {color:#FB4A16}
  div.slideshow-container {
 	position: relative;
-	height: 479px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 479px;
+	 /* This should be set to be at least the height of the largest image in the slideshow */
 	z-index:1;
 	
 }
@@ -374,7 +379,8 @@ div.nav-controls a {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 592px;
-	height: 470px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 470px;
+	 /* This should be set to be at least the height of the largest image in the slideshow */
 }
 
  div.slideshow span.image-wrapper {
@@ -384,6 +390,7 @@ div.nav-controls a {
 	position:absolute;
 	left:0;
 	top:0;
+	
 }
  div.slideshow a.advance-link {
 	display: block;
@@ -404,6 +411,7 @@ div.nav-controls a {
 	text-decoration: none;
 }
  div.slideshow img {
+ 
 }
  div.download {
 	float: right;
@@ -592,11 +600,32 @@ div.nav-controls a {
 		.link-form {text-align:right;padding:8px 20px 0 0}
 		.link-margin {margin-right:20px}
 		
+/****************************table************************/		
+		
+		.rasp {
+  width: 700px;
+  height: 200px}
+th, td {
+  padding: 7px 10px 10px 10px !important;
+  text-align: center;}
+  th {width: auto;}
+th, td, tr {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border: 1px solid #5fc2f8 !important;
+  text-align: center;}
+  .raspisanie {
+	  color: white;
+	  text-decoration: underline;
+  }
+  
+  
 /****************************footer************************/
 footer {
 	width:100%; 
 	padding:0;
-	height:104px;
+	height:104px;cscs
 	position:relative;
 	z-index:2;
 	color:#fff;
